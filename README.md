@@ -1,8 +1,11 @@
 # React2Shell PRO v2 – NSE Script
 
 **Author:** Saad Ayady
+
 **License:** Same as Nmap (open source)  
+
 **Category:** Safe, Discovery, Vulnerability Detection  
+
 **Status:** Detection-only, non-exploitative  
 
 ---
