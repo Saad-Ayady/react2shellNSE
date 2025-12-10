@@ -1,6 +1,6 @@
 # React2Shell PRO v2 – NSE Script
 
-**Author:** Saad Ayady (enhanced)  
+**Author:** Saad Ayady
 **License:** Same as Nmap (open source)  
 **Category:** Safe, Discovery, Vulnerability Detection  
 **Status:** Detection-only, non-exploitative  
@@ -93,11 +93,13 @@ RECOMMENDATIONS:
 |20-29 |	HIGH	| 🟠 |
 |30+ | CRITICAL	| 🔴 |
 
-6. Legal Notice:
+7. Legal Notice:
+   
 - ⚠️ Use only on assets you own or have explicit permission to test.
 - This script is detection-only and does not exploit vulnerabilities. Unauthorized scanning can be illegal.
 
-7. Contributing:
+8. Contributing:
+
 . Pull requests and suggestions welcome.
 . Ensure detection-only behavior remains intact.
 . Maintain NSE compatibility and safe HTTP handling.
