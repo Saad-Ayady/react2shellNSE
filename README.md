@@ -84,6 +84,7 @@ Testing endpoints: `/test, /debug, /health, /status, /metrics`
 POST requests (non-exploitative) are tested only on `/api, /graphql, /rsc, /_flight, /render`.
 
 5. Risk Scoring
+   
 | Total Score | Risk Level | Emoji |
 | :------- | :------: | -------: |
 |0-9 | LOW | 🟢
