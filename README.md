@@ -37,14 +37,14 @@ The script calculates a weighted score to estimate risk levels and generates a c
 1. Place the script in your Nmap scripts directory:
 
 ```bash
-sudo cp react2shell-pro-v2.nse /usr/share/nmap/scripts/
+sudo cp react2shell.lua /usr/share/nmap/scripts/
 sudo nmap --script-updatedb
 ```
 
 
 2. Run against a target host/port:
 ```bash
-nmap -p 80,443 --script react2shell-pro-v2 <target-ip>
+nmap -p 80,443 --script react2shell <target-ip>
 ```
 
 3. Output example:
