@@ -75,15 +75,16 @@ RECOMMENDATIONS:
 ```
 
 4. Endpoints Scanned
-Main pages: `/, /index, /home, /app`
-APIs:` /api, /api/v1, /api/v2, /graphql, /graphiql`
-SSR/Render: `/render, /ssr, /_render, /_ssr`
-React RSC / Flight: `/rsc, /_rsc, /_flight, /react, /_react, /server`
-Next.js specific: `/_next, /_next/data, /_next/static, /_next/server`
-Testing endpoints: `/test, /debug, /health, /status, /metrics`
-POST requests (non-exploitative) are tested only on `/api, /graphql, /rsc, /_flight, /render`.
+   
+- Main pages: `/, /index, /home, /app`
+- APIs:` /api, /api/v1, /api/v2, /graphql, /graphiql`
+- SSR/Render: `/render, /ssr, /_render, /_ssr`
+- React RSC / Flight: `/rsc, /_rsc, /_flight, /react, /_react, /server`
+- Next.js specific: `/_next, /_next/data, /_next/static, /_next/server`
+- Testing endpoints: `/test, /debug, /health, /status, /metrics`
+- POST requests (non-exploitative) are tested only on `/api, /graphql, /rsc, /_flight, /render`.
 
-5. Risk Scoring
+6. Risk Scoring
    
 | Total Score | Risk Level | Emoji |
 | :------- | :------: | -------: |
